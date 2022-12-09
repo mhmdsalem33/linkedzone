@@ -2,6 +2,7 @@
 
 Download app! 
 https://www.mediafire.com/file/akean6nynmz26ta/linkedzone.apk/file
+
 Watch video 
 https://www.linkedin.com/feed/update/urn:li:activity:7006853857687310336/
 
