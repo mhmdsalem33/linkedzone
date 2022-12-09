@@ -1,4 +1,10 @@
 # linkedzone
+
+Download app! 
+https://www.mediafire.com/file/akean6nynmz26ta/linkedzone.apk/file
+Watch video 
+https://www.linkedin.com/feed/update/urn:li:activity:7006853857687310336/
+
 ![318926141_5750345688345306_6045638969306019677_n](https://user-images.githubusercontent.com/108500575/206635697-1e667354-a5ce-4c63-879e-86e524ffe930.jpg)
 ![318110039_443216997829334_5566097299737400811_n](https://user-images.githubusercontent.com/108500575/206635695-d43dad65-8a1a-4043-adfd-219466a16d56.jpg)
 ![318073590_1117419742292885_8050570503590205192_n](https://user-images.githubusercontent.com/108500575/206635700-3cd07e92-a6a2-4fc3-a990-6b0b2c96c016.jpg)
