@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="@dimen/_10sdp"
+    app:cardElevation="0dp"
+    >
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_image_share"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/one"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_12sdp"
+            android:visibility="gone"
+            />
+        <LinearLayout
+          android:id="@+id/linear_share"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          app:layout_constraintTop_toTopOf="@+id/user_image_share"
+          app:layout_constraintStart_toEndOf="@+id/user_image_share"
+          app:layout_constraintEnd_toEndOf="parent"
+          android:layout_marginStart="@dimen/_10sdp"
+          android:orientation="vertical"
+            android:visibility="gone"
+          >
+
+          <TextView
+              android:id="@+id/tv_share_name"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="mohamed salem"
+              android:textStyle="bold"
+              android:textColor="@color/black"
+              android:textSize="@dimen/_12ssp"
+              />
+          <TextView
+              android:id="@+id/tv_share_time"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="just now"
+              android:textStyle="bold"
+              android:textSize="@dimen/_8ssp"
+              />
+      </LinearLayout>
+        <TextView
+            android:id="@+id/tv_share_p"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="shared post"
+            app:layout_constraintTop_toTopOf="@+id/linear_share"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:textSize="@dimen/_10ssp"
+            android:visibility="gone"
+            />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_profile_img"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:src="@color/red"
+        app:layout_constraintTop_toBottomOf="@+id/user_image_share"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_5sdp"
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toEndOf="@+id/user_profile_img"
+        app:layout_constraintTop_toTopOf="@+id/user_profile_img"
+        >
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mohamed Salem"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textSize="@dimen/_15ssp"
+            />
+        <TextView
+            android:id="@+id/user_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android developer"
+            android:layout_marginStart="@dimen/_5sdp"
+            />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/editedPost"
+        android:layout_width="@dimen/_15sdp"
+        android:layout_height="@dimen/_15sdp"
+        android:src="@drawable/points"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/user_profile_img"
+        app:layout_constraintBottom_toBottomOf="@+id/user_profile_img"
+        android:layout_marginEnd="@dimen/_10sdp"
+        />
+    <TextView
+            android:id="@+id/text_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is your mind"
+            app:layout_constraintTop_toBottomOf="@+id/user_profile_img"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/_10ssp"
+            android:fontFamily="@font/myfont"
+
+        />
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/post_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:src="@drawable/one"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="@dimen/_7sdp"
+        app:layout_constraintTop_toBottomOf="@+id/text_description"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/linear_likes"
+        />
+    <ImageView
+        android:id="@+id/save_img"
+        android:layout_width="@dimen/_20sdp"
+        android:layout_height="@dimen/_20sdp"
+        android:src="@drawable/saveicon"
+        app:tint="@color/white"
+        app:layout_constraintTop_toTopOf="@+id/post_image"
+        app:layout_constraintEnd_toEndOf="@+id/post_image"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:visibility="gone"
+        />
+    <LinearLayout
+        android:id="@+id/linear_likes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/post_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+            <ImageView
+                android:id="@+id/post_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_favorite_border_24"
+                android:layout_marginEnd="@dimen/_5sdp"
+                app:tint="@color/black"
+                />
+            <ImageView
+                android:id="@+id/post_liked"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_favorite_24"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/tv_favorites"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_gravity="center"
+                android:fontFamily="@font/aaa"
+                android:layout_marginEnd="@dimen/_5sdp"
+                />
+            <ImageView
+                android:id="@+id/btn_comment"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/chat"
+                android:layout_marginEnd="@dimen/_5sdp"
+                app:tint="@color/black"
+                />
+            <TextView
+                android:id="@+id/tv_comments"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_gravity="center"
+                android:fontFamily="@font/aaa"
+                android:layout_marginEnd="@dimen/_5sdp"
+                />
+            <ImageView
+                android:id="@+id/share_post"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/share"
+                android:layout_marginEnd="@dimen/_5sdp"
+                app:tint="@color/black"
+                />
+            <TextView
+                android:id="@+id/tv_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_gravity="center"
+                android:fontFamily="@font/aaa"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/post_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="just now"
+            />
+
+
+    </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

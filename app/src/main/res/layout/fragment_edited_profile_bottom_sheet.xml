@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.bottomsheets.EditedProfileBottomSheet"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:id="@+id/welcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="welcome mhmd salem looking for change?"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_10ssp"
+            android:fontFamily="@font/myfont"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:id="@+id/logout"
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:src="@drawable/logout"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/_10sdp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <EditText
+            android:id="@+id/tv_firstName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:hint="first name "
+            android:background="@color/white"
+            android:layout_marginStart="@dimen/_10ssp"
+            android:layout_weight="1"
+            />
+        <EditText
+            android:id="@+id/tv_LastName"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:hint="last name"
+            android:background="@color/white"
+            android:layout_marginStart="@dimen/_10ssp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/tv_about"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:hint="tell us about you!"
+        android:background="@color/white"
+        android:layout_marginStart="@dimen/_10ssp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_backgrounds"
+        android:text="update"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/drawable-v24/add+post_background.xml" value="0.32666666666666666" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/drawable-v24/button.xml" value="0.287109375" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/drawable-v24/button_backgrounds.xml" value="0.287109375" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/drawable-v24/button_backgrounds_two.xml" value="0.28378378378378377" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/drawable-v24/curser_backgroundd.xml" value="0.287109375" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/drawable-v24/edtiedcustom.xml" value="0.287109375" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/drawable-v24/notification_background.xml" value="0.3638888888888889" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/drawable-v24/send.xml" value="0.287109375" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/drawable/add_post_background.xml" value="0.32666666666666666" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/drawable/border_follow_button.xml" value="0.32666666666666666" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/drawable/color_left_side_background.xml" value="0.287109375" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/drawable/color_right_side_background.xml" value="0.287109375" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/drawable/comment_backrounds.xml" value="0.2552083333333333" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/drawable/edt_home_background.xml" value="0.287109375" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/drawable/follow_background.xml" value="0.32666666666666666" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/drawable/friends_background.xml" value="0.3638888888888889" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.2552083333333333" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.28378378378378377" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.287109375" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/drawable/post_radius.xml" value="0.32666666666666666" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/drawable/profile_border.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/drawable/search_background.xml" value="0.3638888888888889" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/drawable/shammer_background.xml" value="0.2652777777777778" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/activity_start.xml" value="0.275" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/comments_row.xml" value="0.275" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/fragment_add_post.xml" value="0.25" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/fragment_auth.xml" value="0.2140625" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/fragment_chat.xml" value="0.25" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/fragment_comments.xml" value="0.33" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/fragment_edited_post.xml" value="0.275" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/fragment_edited_profile_bottom_sheet.xml" value="0.275" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/fragment_login.xml" value="0.275" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/fragment_notification.xml" value="0.33" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/fragment_notification2.xml" value="0.3171171171171171" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/fragment_profile.xml" value="0.275" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/fragment_register.xml" value="0.275" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/fragment_search.xml" value="0.275" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/fragment_search_chat.xml" value="0.275" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/friends_row.xml" value="0.3171171171171171" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/header_home_layout.xml" value="0.25" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/left_row.xml" value="0.275" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/liked_row.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/notification_row.xml" value="0.3171171171171171" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/post_row.xml" value="0.275" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/post_row_shimmer.xml" value="0.275" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/right_row.xml" value="0.275" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/search_users_row.xml" value="0.275" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/layout/story_row.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/Mohamed/AndroidStudioProjects/LinkedZone/app/src/main/res/menu/menu.xml" value="0.275" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
